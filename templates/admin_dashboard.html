@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Super Admin Dashboard</title>
+  <style>
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #aaa; padding: 8px; text-align: center; }
+    th { background-color: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <h2>Super Admin Dashboard</h2>
+  <p>Welcome, {{ username }} | <a href="{{ url_for('logout') }}">Logout</a></p>
+  <h3>Log Data:</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th><th>UUID</th><th>KEY</th><th>TXT</th><th>SESSION</th><th>IPADDR</th><th>APP</th><th>TIME</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for log in logs %}
+      <tr>
+        {% for item in log %}
+        <td>{{ item }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>
