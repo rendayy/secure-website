@@ -262,3 +262,242 @@
 2025-07-09 22:13:42,729 - INFO - 127.0.0.1 - - [09/Jul/2025 22:13:42] "GET /login HTTP/1.1" 200 -
 2025-07-09 22:34:29,868 - INFO - 127.0.0.1 - - [09/Jul/2025 22:34:29] "[31m[1mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 403 -
 2025-07-09 22:34:36,494 - INFO - 127.0.0.1 - - [09/Jul/2025 22:34:36] "GET /login HTTP/1.1" 200 -
+2025-07-10 06:21:39,277 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-10 06:21:39,277 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 06:21:39,280 - INFO -  * Restarting with stat
+2025-07-10 06:21:39,585 - WARNING -  * Debugger is active!
+2025-07-10 06:21:39,598 - INFO -  * Debugger PIN: 926-718-782
+2025-07-10 06:21:48,478 - INFO - 127.0.0.1 - - [10/Jul/2025 06:21:48] "GET /login HTTP/1.1" 200 -
+2025-07-10 06:21:48,588 - INFO - 127.0.0.1 - - [10/Jul/2025 06:21:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-10 06:21:55,256 - INFO - 127.0.0.1 - - [10/Jul/2025 06:21:55] "GET /register/ HTTP/1.1" 200 -
+2025-07-10 06:22:02,609 - INFO - REGISTER: renday
+2025-07-10 06:22:02,618 - INFO - 127.0.0.1 - - [10/Jul/2025 06:22:02] "[32mPOST /register/ HTTP/1.1[0m" 302 -
+2025-07-10 06:22:02,625 - INFO - 127.0.0.1 - - [10/Jul/2025 06:22:02] "GET /login HTTP/1.1" 200 -
+2025-07-10 06:22:11,733 - INFO - LOGIN SUCCESS: renday
+2025-07-10 06:22:11,736 - INFO - 127.0.0.1 - - [10/Jul/2025 06:22:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-10 06:22:11,794 - INFO - 127.0.0.1 - - [10/Jul/2025 06:22:11] "GET /profilesecure/InJlbmRheSI.vx4CCpZ6nup136y3mXKG7TDHq3c HTTP/1.1" 200 -
+2025-07-10 06:22:19,147 - INFO - LOGOUT: renday
+2025-07-10 06:22:19,148 - INFO - 127.0.0.1 - - [10/Jul/2025 06:22:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-10 06:22:19,157 - INFO - 127.0.0.1 - - [10/Jul/2025 06:22:19] "GET /login HTTP/1.1" 200 -
+2025-07-10 06:22:27,028 - INFO - 127.0.0.1 - - [10/Jul/2025 06:22:27] "[33mGET /profilesecure HTTP/1.1[0m" 404 -
+2025-07-10 06:22:30,034 - INFO - 127.0.0.1 - - [10/Jul/2025 06:22:30] "[31m[1mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 403 -
+2025-07-10 07:48:49,285 - INFO - 127.0.0.1 - - [10/Jul/2025 07:48:49] "[33mGET /profilesecure HTTP/1.1[0m" 404 -
+2025-07-10 07:48:50,508 - INFO - 127.0.0.1 - - [10/Jul/2025 07:48:50] "GET /login HTTP/1.1" 200 -
+2025-07-10 07:48:52,044 - INFO - 127.0.0.1 - - [10/Jul/2025 07:48:52] "GET /login HTTP/1.1" 200 -
+2025-07-10 07:48:53,343 - INFO - 127.0.0.1 - - [10/Jul/2025 07:48:53] "GET /login HTTP/1.1" 200 -
+2025-07-10 08:01:50,377 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-10 08:01:50,377 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 08:01:50,377 - INFO -  * Restarting with stat
+2025-07-10 08:01:50,708 - WARNING -  * Debugger is active!
+2025-07-10 08:01:50,711 - INFO -  * Debugger PIN: 926-718-782
+2025-07-10 08:01:54,412 - INFO - 127.0.0.1 - - [10/Jul/2025 08:01:54] "GET /login HTTP/1.1" 200 -
+2025-07-10 08:02:01,348 - INFO - LOGIN SUCCESS: admin
+2025-07-10 08:02:01,348 - INFO - 127.0.0.1 - - [10/Jul/2025 08:02:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-10 08:02:01,368 - INFO - 127.0.0.1 - - [10/Jul/2025 08:02:01] "[32mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 302 -
+2025-07-10 08:02:01,416 - INFO - 127.0.0.1 - - [10/Jul/2025 08:02:01] "GET /admin/logs HTTP/1.1" 200 -
+2025-07-11 20:05:08,564 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-11 20:05:08,564 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 20:05:08,566 - INFO -  * Restarting with stat
+2025-07-11 20:05:09,138 - WARNING -  * Debugger is active!
+2025-07-11 20:05:09,143 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 20:05:16,479 - INFO - 127.0.0.1 - - [11/Jul/2025 20:05:16] "GET /login HTTP/1.1" 200 -
+2025-07-11 20:05:16,651 - INFO - 127.0.0.1 - - [11/Jul/2025 20:05:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-11 20:05:20,746 - INFO - 127.0.0.1 - - [11/Jul/2025 20:05:20] "GET /register/ HTTP/1.1" 200 -
+2025-07-11 20:05:32,095 - INFO - REGISTER: rendi
+2025-07-11 20:05:32,100 - INFO - 127.0.0.1 - - [11/Jul/2025 20:05:32] "[32mPOST /register/ HTTP/1.1[0m" 302 -
+2025-07-11 20:05:32,117 - INFO - 127.0.0.1 - - [11/Jul/2025 20:05:32] "GET /login HTTP/1.1" 200 -
+2025-07-11 20:10:05,759 - INFO - LOGIN SUCCESS: rendi
+2025-07-11 20:10:05,792 - INFO - 127.0.0.1 - - [11/Jul/2025 20:10:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-11 20:10:05,808 - INFO - 127.0.0.1 - - [11/Jul/2025 20:10:05] "GET /profilesecure/InJlbmRpIg.HNBTo4jct89WknMi-UuazrSVfXY HTTP/1.1" 200 -
+2025-07-11 20:10:12,894 - INFO - LOGOUT: rendi
+2025-07-11 20:10:12,896 - INFO - 127.0.0.1 - - [11/Jul/2025 20:10:12] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-11 20:10:12,908 - INFO - 127.0.0.1 - - [11/Jul/2025 20:10:12] "GET /login HTTP/1.1" 200 -
+2025-07-11 20:10:23,085 - INFO - 127.0.0.1 - - [11/Jul/2025 20:10:23] "[33mGET /profilesecure/ HTTP/1.1[0m" 404 -
+2025-07-11 20:12:44,367 - WARNING - LOGIN FAIL: admin
+2025-07-11 20:12:44,368 - INFO - 127.0.0.1 - - [11/Jul/2025 20:12:44] "POST /login HTTP/1.1" 200 -
+2025-07-11 20:13:04,360 - INFO - 127.0.0.1 - - [11/Jul/2025 20:13:04] "GET /register/ HTTP/1.1" 200 -
+2025-07-11 20:13:11,936 - INFO - REGISTER: admin
+2025-07-11 20:13:11,941 - INFO - 127.0.0.1 - - [11/Jul/2025 20:13:11] "[32mPOST /register/ HTTP/1.1[0m" 302 -
+2025-07-11 20:13:11,948 - INFO - 127.0.0.1 - - [11/Jul/2025 20:13:11] "GET /login HTTP/1.1" 200 -
+2025-07-11 20:13:29,799 - INFO - LOGIN SUCCESS: admin
+2025-07-11 20:13:29,801 - INFO - 127.0.0.1 - - [11/Jul/2025 20:13:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-11 20:13:29,815 - INFO - 127.0.0.1 - - [11/Jul/2025 20:13:29] "[32mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 302 -
+2025-07-11 20:13:29,909 - INFO - 127.0.0.1 - - [11/Jul/2025 20:13:29] "GET /admin/logs HTTP/1.1" 200 -
+2025-07-11 20:14:16,486 - INFO -  * Detected change in 'd:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-11 20:14:16,559 - INFO -  * Restarting with stat
+2025-07-11 20:14:17,305 - WARNING -  * Debugger is active!
+2025-07-11 20:14:17,311 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 20:14:22,393 - INFO -  * Detected change in 'd:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-11 20:14:22,455 - INFO -  * Restarting with stat
+2025-07-11 20:14:22,893 - WARNING -  * Debugger is active!
+2025-07-11 20:14:22,905 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 20:14:26,957 - INFO -  * Detected change in 'd:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-11 20:14:27,005 - INFO -  * Restarting with stat
+2025-07-11 20:14:27,411 - WARNING -  * Debugger is active!
+2025-07-11 20:14:27,414 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 20:14:37,525 - INFO -  * Detected change in 'd:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-11 20:14:37,594 - INFO -  * Restarting with stat
+2025-07-11 20:14:38,114 - WARNING -  * Debugger is active!
+2025-07-11 20:14:38,115 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 20:14:40,146 - INFO -  * Detected change in 'd:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-11 20:14:40,225 - INFO -  * Restarting with stat
+2025-07-11 20:14:40,579 - WARNING -  * Debugger is active!
+2025-07-11 20:14:40,583 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 20:14:42,625 - INFO -  * Detected change in 'd:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-11 20:14:42,696 - INFO -  * Restarting with stat
+2025-07-11 20:14:43,059 - WARNING -  * Debugger is active!
+2025-07-11 20:14:43,061 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 20:14:48,116 - INFO -  * Detected change in 'd:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-11 20:14:48,165 - INFO -  * Restarting with stat
+2025-07-11 20:14:48,556 - WARNING -  * Debugger is active!
+2025-07-11 20:14:48,575 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 20:14:53,668 - INFO -  * Detected change in 'd:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-11 20:14:53,732 - INFO -  * Restarting with stat
+2025-07-11 20:14:54,200 - WARNING -  * Debugger is active!
+2025-07-11 20:14:54,201 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 20:14:55,226 - INFO -  * Detected change in 'd:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-11 20:14:55,295 - INFO -  * Restarting with stat
+2025-07-11 20:14:55,675 - WARNING -  * Debugger is active!
+2025-07-11 20:14:55,677 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 20:17:58,325 - INFO - LOGOUT: admin
+2025-07-11 20:17:58,326 - INFO - 127.0.0.1 - - [11/Jul/2025 20:17:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-11 20:17:58,346 - INFO - 127.0.0.1 - - [11/Jul/2025 20:17:58] "GET /login HTTP/1.1" 200 -
+2025-07-11 21:13:17,577 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-11 21:13:17,577 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 21:13:17,580 - INFO -  * Restarting with stat
+2025-07-11 21:13:18,056 - WARNING -  * Debugger is active!
+2025-07-11 21:13:18,060 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 21:13:44,344 - INFO -  * Detected change in 'd:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-11 21:13:44,431 - INFO -  * Restarting with stat
+2025-07-11 21:13:55,876 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-11 21:13:55,876 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 21:13:55,879 - INFO -  * Restarting with stat
+2025-07-11 21:13:56,231 - WARNING -  * Debugger is active!
+2025-07-11 21:13:56,233 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 21:15:19,133 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-11 21:15:19,133 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 21:15:19,136 - INFO -  * Restarting with stat
+2025-07-11 21:15:19,737 - WARNING -  * Debugger is active!
+2025-07-11 21:15:19,742 - INFO -  * Debugger PIN: 926-718-782
+2025-07-11 21:16:33,392 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-11 21:16:33,392 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 21:16:33,395 - INFO -  * Restarting with stat
+2025-07-11 21:16:33,755 - WARNING -  * Debugger is active!
+2025-07-11 21:16:33,758 - INFO -  * Debugger PIN: 926-718-782
+2025-07-17 11:23:34,969 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-17 11:23:34,969 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 11:23:34,971 - INFO -  * Restarting with stat
+2025-07-17 11:23:35,440 - WARNING -  * Debugger is active!
+2025-07-17 11:23:35,444 - INFO -  * Debugger PIN: 926-718-782
+2025-07-17 11:24:19,905 - INFO - 127.0.0.1 - - [17/Jul/2025 11:24:19] "[33mGET /login/ HTTP/1.1[0m" 404 -
+2025-07-17 11:24:20,097 - INFO - 127.0.0.1 - - [17/Jul/2025 11:24:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-17 11:24:24,412 - INFO - 127.0.0.1 - - [17/Jul/2025 11:24:24] "GET /register/ HTTP/1.1" 200 -
+2025-07-17 11:24:46,454 - INFO - 127.0.0.1 - - [17/Jul/2025 11:24:46] "[33mGET /login/ HTTP/1.1[0m" 404 -
+2025-07-17 11:24:53,561 - INFO - 127.0.0.1 - - [17/Jul/2025 11:24:53] "[33mGET /login/ HTTP/1.1[0m" 404 -
+2025-07-17 11:24:58,768 - INFO -  * Detected change in 'D:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-17 11:24:58,853 - INFO -  * Restarting with stat
+2025-07-17 11:24:59,380 - WARNING -  * Debugger is active!
+2025-07-17 11:24:59,383 - INFO -  * Debugger PIN: 926-718-782
+2025-07-17 11:24:59,522 - INFO - 127.0.0.1 - - [17/Jul/2025 11:24:59] "GET /login/ HTTP/1.1" 200 -
+2025-07-17 11:25:18,488 - INFO - LOGIN SUCCESS: rendi
+2025-07-17 11:25:18,493 - INFO - 127.0.0.1 - - [17/Jul/2025 11:25:18] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-17 11:25:18,514 - INFO - 127.0.0.1 - - [17/Jul/2025 11:25:18] "GET /profilesecure/InJlbmRpIg.HNBTo4jct89WknMi-UuazrSVfXY HTTP/1.1" 200 -
+2025-07-17 11:25:28,477 - INFO - LOGOUT: rendi
+2025-07-17 11:25:28,480 - INFO - 127.0.0.1 - - [17/Jul/2025 11:25:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-17 11:25:28,491 - INFO - 127.0.0.1 - - [17/Jul/2025 11:25:28] "GET /login/ HTTP/1.1" 200 -
+2025-07-17 11:25:45,505 - INFO - 127.0.0.1 - - [17/Jul/2025 11:25:45] "[33mGET /profilesecure/ HTTP/1.1[0m" 404 -
+2025-07-17 11:25:50,954 - INFO - 127.0.0.1 - - [17/Jul/2025 11:25:50] "[31m[1mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 403 -
+2025-07-17 11:27:15,749 - INFO - 127.0.0.1 - - [17/Jul/2025 11:27:15] "GET /login/ HTTP/1.1" 200 -
+2025-07-17 11:27:21,175 - INFO - LOGIN SUCCESS: rendi
+2025-07-17 11:27:21,176 - INFO - 127.0.0.1 - - [17/Jul/2025 11:27:21] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-17 11:27:21,188 - INFO - 127.0.0.1 - - [17/Jul/2025 11:27:21] "GET /profilesecure/InJlbmRpIg.HNBTo4jct89WknMi-UuazrSVfXY HTTP/1.1" 200 -
+2025-07-17 11:27:28,534 - INFO - LOGOUT: rendi
+2025-07-17 11:27:28,535 - INFO - 127.0.0.1 - - [17/Jul/2025 11:27:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-17 11:27:28,553 - INFO - 127.0.0.1 - - [17/Jul/2025 11:27:28] "GET /login/ HTTP/1.1" 200 -
+2025-07-17 11:27:41,264 - INFO - 127.0.0.1 - - [17/Jul/2025 11:27:41] "[33mGET /profilesecure HTTP/1.1[0m" 404 -
+2025-07-17 11:27:47,368 - INFO - 127.0.0.1 - - [17/Jul/2025 11:27:47] "[31m[1mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 403 -
+2025-07-17 11:28:01,727 - INFO -  * Detected change in 'D:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-17 11:28:01,977 - INFO -  * Restarting with stat
+2025-07-17 11:28:02,558 - WARNING -  * Debugger is active!
+2025-07-17 11:28:02,561 - INFO -  * Debugger PIN: 926-718-782
+2025-07-17 11:28:03,378 - ERROR - INVALID TOKEN: No b'.' found in value
+2025-07-17 11:28:03,378 - INFO - 127.0.0.1 - - [17/Jul/2025 11:28:03] "[31m[1mGET /profilesecure HTTP/1.1[0m" 400 -
+2025-07-17 11:28:05,619 - INFO - 127.0.0.1 - - [17/Jul/2025 11:28:05] "GET /login/ HTTP/1.1" 200 -
+2025-07-17 11:28:10,189 - INFO - LOGIN SUCCESS: rendi
+2025-07-17 11:28:10,192 - INFO - 127.0.0.1 - - [17/Jul/2025 11:28:10] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-17 11:28:10,211 - INFO - 127.0.0.1 - - [17/Jul/2025 11:28:10] "GET /InJlbmRpIg.HNBTo4jct89WknMi-UuazrSVfXY HTTP/1.1" 200 -
+2025-07-17 11:28:14,590 - INFO - LOGOUT: rendi
+2025-07-17 11:28:14,591 - INFO - 127.0.0.1 - - [17/Jul/2025 11:28:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-17 11:28:14,614 - INFO - 127.0.0.1 - - [17/Jul/2025 11:28:14] "GET /login/ HTTP/1.1" 200 -
+2025-07-17 11:28:53,065 - INFO -  * Detected change in 'D:\\folder kuliah\\semester 4\\Pengembangan aplikasi berbasis web\\uas\\secure-web2\\app.py', reloading
+2025-07-17 11:28:53,173 - INFO -  * Restarting with stat
+2025-07-17 11:28:53,742 - WARNING -  * Debugger is active!
+2025-07-17 11:28:53,744 - INFO -  * Debugger PIN: 926-718-782
+2025-07-17 11:28:57,605 - INFO - 127.0.0.1 - - [17/Jul/2025 11:28:57] "[31m[1mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 403 -
+2025-07-17 11:29:07,423 - INFO - 127.0.0.1 - - [17/Jul/2025 11:29:07] "[33mGET /profilesecure/ HTTP/1.1[0m" 404 -
+2025-07-17 11:29:24,140 - INFO - 127.0.0.1 - - [17/Jul/2025 11:29:24] "[31m[1mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 403 -
+2025-07-17 11:29:26,794 - INFO - 127.0.0.1 - - [17/Jul/2025 11:29:26] "GET /login/ HTTP/1.1" 200 -
+2025-07-17 11:29:53,507 - INFO - 127.0.0.1 - - [17/Jul/2025 11:29:53] "[33mGET /profilesecure/ HTTP/1.1[0m" 404 -
+2025-07-17 11:31:44,945 - INFO - 127.0.0.1 - - [17/Jul/2025 11:31:44] "[31m[1mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 403 -
+2025-07-17 11:32:05,213 - INFO - 127.0.0.1 - - [17/Jul/2025 11:32:05] "GET /login/ HTTP/1.1" 200 -
+2025-07-17 11:32:10,364 - INFO - LOGIN SUCCESS: rendi
+2025-07-17 11:32:10,373 - INFO - 127.0.0.1 - - [17/Jul/2025 11:32:10] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-17 11:32:10,396 - INFO - 127.0.0.1 - - [17/Jul/2025 11:32:10] "GET /profilesecure/InJlbmRpIg.HNBTo4jct89WknMi-UuazrSVfXY HTTP/1.1" 200 -
+2025-07-17 11:32:17,107 - INFO - LOGOUT: rendi
+2025-07-17 11:32:17,107 - INFO - 127.0.0.1 - - [17/Jul/2025 11:32:17] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-17 11:32:17,132 - INFO - 127.0.0.1 - - [17/Jul/2025 11:32:17] "GET /login/ HTTP/1.1" 200 -
+2025-07-17 11:32:27,701 - INFO - 127.0.0.1 - - [17/Jul/2025 11:32:27] "[33mGET /profilesecure/ HTTP/1.1[0m" 404 -
+2025-07-17 11:32:36,598 - INFO - 127.0.0.1 - - [17/Jul/2025 11:32:36] "[31m[1mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 403 -
+2025-07-17 11:32:54,840 - INFO - 127.0.0.1 - - [17/Jul/2025 11:32:54] "[33mGET /profilesecure/ HTTP/1.1[0m" 404 -
+2025-07-17 19:15:50,207 - INFO - 127.0.0.1 - - [17/Jul/2025 19:15:50] "[33mGET /profilesecure/ HTTP/1.1[0m" 404 -
+2025-07-18 21:08:44,189 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-18 21:08:44,190 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-18 21:08:44,192 - INFO -  * Restarting with stat
+2025-07-18 21:08:44,925 - WARNING -  * Debugger is active!
+2025-07-18 21:08:44,953 - INFO -  * Debugger PIN: 926-718-782
+2025-07-18 21:08:56,387 - INFO - 127.0.0.1 - - [18/Jul/2025 21:08:56] "GET /login/ HTTP/1.1" 200 -
+2025-07-18 21:08:56,736 - INFO - 127.0.0.1 - - [18/Jul/2025 21:08:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-18 21:09:11,233 - INFO - LOGIN SUCCESS: rendi
+2025-07-18 21:09:11,237 - INFO - 127.0.0.1 - - [18/Jul/2025 21:09:11] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-18 21:09:11,256 - INFO - 127.0.0.1 - - [18/Jul/2025 21:09:11] "GET /profilesecure/InJlbmRpIg.HNBTo4jct89WknMi-UuazrSVfXY HTTP/1.1" 200 -
+2025-07-18 21:09:16,782 - INFO - LOGOUT: rendi
+2025-07-18 21:09:16,784 - INFO - 127.0.0.1 - - [18/Jul/2025 21:09:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-18 21:09:16,809 - INFO - 127.0.0.1 - - [18/Jul/2025 21:09:16] "GET /login/ HTTP/1.1" 200 -
+2025-07-18 21:09:27,946 - INFO - LOGIN SUCCESS: admin
+2025-07-18 21:09:27,948 - INFO - 127.0.0.1 - - [18/Jul/2025 21:09:27] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-18 21:09:27,958 - INFO - 127.0.0.1 - - [18/Jul/2025 21:09:27] "[32mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 302 -
+2025-07-18 21:09:28,012 - INFO - 127.0.0.1 - - [18/Jul/2025 21:09:28] "GET /admin/logs HTTP/1.1" 200 -
+2025-07-19 10:10:09,102 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-19 10:10:09,104 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 10:10:09,105 - INFO -  * Restarting with stat
+2025-07-19 10:10:09,521 - WARNING -  * Debugger is active!
+2025-07-19 10:10:09,543 - INFO -  * Debugger PIN: 926-718-782
+2025-07-19 10:10:17,362 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:17] "GET /login/ HTTP/1.1" 200 -
+2025-07-19 10:10:17,679 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-19 10:10:21,491 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:21] "GET /register/ HTTP/1.1" 200 -
+2025-07-19 10:10:29,806 - INFO - REGISTER: masrendi
+2025-07-19 10:10:29,811 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:29] "[32mPOST /register/ HTTP/1.1[0m" 302 -
+2025-07-19 10:10:29,828 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:29] "GET /login/ HTTP/1.1" 200 -
+2025-07-19 10:10:36,446 - INFO - LOGIN SUCCESS: masrendi
+2025-07-19 10:10:36,467 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:36] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-19 10:10:36,480 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:36] "GET /profilesecure/Im1hc3JlbmRpIg.qe4GaDZ0NeKjsXgmvaLlOP30L-E HTTP/1.1" 200 -
+2025-07-19 10:10:39,971 - INFO - LOGOUT: masrendi
+2025-07-19 10:10:39,972 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-19 10:10:39,993 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:39] "GET /login/ HTTP/1.1" 200 -
+2025-07-19 10:10:45,514 - INFO - LOGIN SUCCESS: admin
+2025-07-19 10:10:45,518 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:45] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-19 10:10:45,530 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:45] "[32mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 302 -
+2025-07-19 10:10:45,585 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:45] "GET /admin/logs HTTP/1.1" 200 -
+2025-07-19 10:10:58,906 - INFO - LOGOUT: admin
+2025-07-19 10:10:58,908 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-19 10:10:58,922 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:58] "GET /login/ HTTP/1.1" 200 -

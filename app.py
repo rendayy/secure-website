@@ -1,12 +1,12 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash, send_file
 import sqlite3
-import uuid
 import os
-from datetime import timedelta, datetime
+from datetime import timedelta
 import logging
 from itsdangerous import URLSafeSerializer
 import csv
 from io import StringIO
+from models import init_db, custom_log
 
 # Init app
 app = Flask(__name__)
@@ -22,25 +22,6 @@ if not os.path.exists('logs'):
 logging.basicConfig(filename='logs/activity.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Inisialisasi database
-def init_db():
-    with sqlite3.connect("users.db") as conn:
-        conn.execute('''CREATE TABLE IF NOT EXISTS users (
-                            id INTEGER PRIMARY KEY AUTOINCREMENT,
-                            username TEXT UNIQUE,
-                            password TEXT,
-                            token TEXT,
-                            role TEXT
-                        )''')
-
-# Logging ke CSV untuk admin
-def custom_log(key, txt, session_user, ip, app_name='WEBAPP'):
-    uuid_str = str(uuid.uuid4())
-    waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    log_entry = [uuid_str, key, txt, session_user, ip, app_name, waktu]
-    with open('logs/activity.csv', 'a', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(log_entry)
 
 # Home
 @app.route('/')
@@ -71,7 +52,7 @@ def register():
     return render_template("register.html")
 
 # Login
-@app.route('/login', methods=['GET', 'POST'])
+@app.route('/login/', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
         username = request.form['username']
@@ -159,4 +140,5 @@ def logout():
 # Jalankan aplikasi
 if __name__ == '__main__':
     init_db()
+    print("server started")
     app.run(debug=True)

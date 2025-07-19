@@ -15,3 +15,8 @@
     ```
     Pip install flask itsdangerous
     ```
+3. cara menjalankan flask
+   ```
+   python app.py
+   ```
+   Masuk Ke browser atau microsoft edge lalu ketik 
