@@ -4,7 +4,7 @@ import uuid
 import csv
 
 
-# inisialisasi database
+
 def init_db():
     with sqlite3.connect("users.db") as conn:
         conn.execute('''CREATE TABLE IF NOT EXISTS users (
@@ -15,7 +15,7 @@ def init_db():
                             role TEXT
                         )''')
 
-# Logging ke CSV untuk admin
+
 def custom_log(key, txt, session_user, ip, app_name='WEBAPP'):
     uuid_str = str(uuid.uuid4())
     waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')

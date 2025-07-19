@@ -501,3 +501,64 @@
 2025-07-19 10:10:58,906 - INFO - LOGOUT: admin
 2025-07-19 10:10:58,908 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:58] "[32mGET /logout HTTP/1.1[0m" 302 -
 2025-07-19 10:10:58,922 - INFO - 127.0.0.1 - - [19/Jul/2025 10:10:58] "GET /login/ HTTP/1.1" 200 -
+2025-07-19 11:03:16,649 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-19 11:03:16,649 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 11:03:16,650 - INFO -  * Restarting with stat
+2025-07-19 11:03:17,152 - WARNING -  * Debugger is active!
+2025-07-19 11:03:17,168 - INFO -  * Debugger PIN: 926-718-782
+2025-07-19 11:03:22,590 - INFO - 127.0.0.1 - - [19/Jul/2025 11:03:22] "GET /login/ HTTP/1.1" 200 -
+2025-07-19 11:03:26,702 - INFO - 127.0.0.1 - - [19/Jul/2025 11:03:26] "GET /register/ HTTP/1.1" 200 -
+2025-07-19 11:03:38,061 - INFO - REGISTER: bangren
+2025-07-19 11:03:38,069 - INFO - 127.0.0.1 - - [19/Jul/2025 11:03:38] "[32mPOST /register/ HTTP/1.1[0m" 302 -
+2025-07-19 11:03:38,085 - INFO - 127.0.0.1 - - [19/Jul/2025 11:03:38] "GET /login/ HTTP/1.1" 200 -
+2025-07-19 11:03:56,951 - INFO - LOGIN SUCCESS: bangren
+2025-07-19 11:03:56,983 - INFO - 127.0.0.1 - - [19/Jul/2025 11:03:56] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-19 11:03:56,995 - INFO - 127.0.0.1 - - [19/Jul/2025 11:03:56] "GET /profilesecure/ImJhbmdyZW4i.3lnUmXxaXMNTmLGBJxJJRNEtb04 HTTP/1.1" 200 -
+2025-07-19 11:04:17,080 - INFO - LOGOUT: bangren
+2025-07-19 11:04:17,081 - INFO - 127.0.0.1 - - [19/Jul/2025 11:04:17] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-19 11:04:17,095 - INFO - 127.0.0.1 - - [19/Jul/2025 11:04:17] "GET /login/ HTTP/1.1" 200 -
+2025-07-19 11:04:30,164 - INFO - 127.0.0.1 - - [19/Jul/2025 11:04:30] "[31m[1mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 403 -
+2025-07-19 11:04:56,950 - INFO - LOGIN SUCCESS: admin
+2025-07-19 11:04:56,952 - INFO - 127.0.0.1 - - [19/Jul/2025 11:04:56] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-19 11:04:56,969 - INFO - 127.0.0.1 - - [19/Jul/2025 11:04:56] "[32mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 302 -
+2025-07-19 11:04:57,041 - INFO - 127.0.0.1 - - [19/Jul/2025 11:04:57] "GET /admin/logs HTTP/1.1" 200 -
+2025-07-19 11:06:30,795 - INFO - LOGOUT: admin
+2025-07-19 11:06:30,796 - INFO - 127.0.0.1 - - [19/Jul/2025 11:06:30] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-19 11:06:30,806 - INFO - 127.0.0.1 - - [19/Jul/2025 11:06:30] "GET /login/ HTTP/1.1" 200 -
+2025-07-19 11:42:03,544 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-19 11:42:03,544 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 11:42:03,546 - INFO -  * Restarting with stat
+2025-07-19 11:42:04,159 - WARNING -  * Debugger is active!
+2025-07-19 11:42:04,165 - INFO -  * Debugger PIN: 926-718-782
+2025-07-19 11:42:22,306 - INFO - 127.0.0.1 - - [19/Jul/2025 11:42:22] "GET /register/ HTTP/1.1" 200 -
+2025-07-19 11:42:36,966 - INFO - REGISTER: okboss
+2025-07-19 11:42:36,972 - INFO - 127.0.0.1 - - [19/Jul/2025 11:42:36] "[32mPOST /register/ HTTP/1.1[0m" 302 -
+2025-07-19 11:42:36,983 - INFO - 127.0.0.1 - - [19/Jul/2025 11:42:36] "GET /login/ HTTP/1.1" 200 -
+2025-07-19 11:42:49,405 - INFO - LOGIN SUCCESS: okboss
+2025-07-19 11:42:49,407 - INFO - 127.0.0.1 - - [19/Jul/2025 11:42:49] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-19 11:42:49,422 - INFO - 127.0.0.1 - - [19/Jul/2025 11:42:49] "GET /profilesecure/Im9rYm9zcyI.AQZAd_XJce8mbqdsSyLBE1qJ_XE HTTP/1.1" 200 -
+2025-07-19 11:43:02,461 - INFO - LOGOUT: okboss
+2025-07-19 11:43:02,465 - INFO - 127.0.0.1 - - [19/Jul/2025 11:43:02] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-19 11:43:02,477 - INFO - 127.0.0.1 - - [19/Jul/2025 11:43:02] "GET /login/ HTTP/1.1" 200 -
+2025-07-19 11:43:13,184 - INFO - LOGIN SUCCESS: okboss
+2025-07-19 11:43:13,188 - INFO - 127.0.0.1 - - [19/Jul/2025 11:43:13] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-19 11:43:13,197 - INFO - 127.0.0.1 - - [19/Jul/2025 11:43:13] "GET /profilesecure/Im9rYm9zcyI.AQZAd_XJce8mbqdsSyLBE1qJ_XE HTTP/1.1" 200 -
+2025-07-19 11:43:22,662 - INFO - LOGOUT: okboss
+2025-07-19 11:43:22,664 - INFO - 127.0.0.1 - - [19/Jul/2025 11:43:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-19 11:43:22,680 - INFO - 127.0.0.1 - - [19/Jul/2025 11:43:22] "GET /login/ HTTP/1.1" 200 -
+2025-07-19 11:43:41,873 - INFO - 127.0.0.1 - - [19/Jul/2025 11:43:41] "[31m[1mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 403 -
+2025-07-19 11:43:55,158 - INFO - LOGIN SUCCESS: okboss
+2025-07-19 11:43:55,160 - INFO - 127.0.0.1 - - [19/Jul/2025 11:43:55] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-19 11:43:55,176 - INFO - 127.0.0.1 - - [19/Jul/2025 11:43:55] "GET /profilesecure/Im9rYm9zcyI.AQZAd_XJce8mbqdsSyLBE1qJ_XE HTTP/1.1" 200 -
+2025-07-19 11:44:05,949 - INFO - LOGOUT: okboss
+2025-07-19 11:44:05,949 - INFO - 127.0.0.1 - - [19/Jul/2025 11:44:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-19 11:44:05,963 - INFO - 127.0.0.1 - - [19/Jul/2025 11:44:05] "GET /login/ HTTP/1.1" 200 -
+2025-07-19 11:44:15,716 - INFO - 127.0.0.1 - - [19/Jul/2025 11:44:15] "[31m[1mGET /profilesecure/Im9rYm9zcyI.AQZAd_XJce8mbqdsSyLBE1qJ_XE HTTP/1.1[0m" 403 -
+2025-07-19 11:44:40,946 - WARNING - LOGIN FAIL: okjhonn
+2025-07-19 11:44:40,947 - INFO - 127.0.0.1 - - [19/Jul/2025 11:44:40] "POST /login/ HTTP/1.1" 200 -
+2025-07-19 11:44:51,697 - INFO - LOGIN SUCCESS: admin
+2025-07-19 11:44:51,703 - INFO - 127.0.0.1 - - [19/Jul/2025 11:44:51] "[32mPOST /login/ HTTP/1.1[0m" 302 -
+2025-07-19 11:44:51,721 - INFO - 127.0.0.1 - - [19/Jul/2025 11:44:51] "[32mGET /profilesecure/ImFkbWluIg.FF2PxgaAM3z29p_9E1H44al7ySg HTTP/1.1[0m" 302 -
+2025-07-19 11:44:51,806 - INFO - 127.0.0.1 - - [19/Jul/2025 11:44:51] "GET /admin/logs HTTP/1.1" 200 -

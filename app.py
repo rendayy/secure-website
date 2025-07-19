@@ -8,15 +8,15 @@ import csv
 from io import StringIO
 from models import init_db, custom_log
 
-# Init app
+
 app = Flask(__name__)
 app.secret_key = 'your-secret-key'
 app.permanent_session_lifetime = timedelta(minutes=30)
 
-# Token serializer
+
 s = URLSafeSerializer(app.secret_key)
 
-# Logging
+
 if not os.path.exists('logs'):
     os.makedirs('logs')
 logging.basicConfig(filename='logs/activity.log', level=logging.INFO,
@@ -37,7 +37,7 @@ def register():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-        token = s.dumps(username)  # ✅ Gunakan serializer token
+        token = s.dumps(username)  
         role = 'user'
         try:
             with sqlite3.connect("users.db") as conn:
@@ -51,7 +51,7 @@ def register():
         return redirect(url_for('login'))
     return render_template("register.html")
 
-# Login
+
 @app.route('/login/', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
@@ -75,7 +75,7 @@ def login():
                 logging.warning(f"LOGIN FAIL: {username}")
     return render_template("login.html")
 
-# Dashboard user/admin
+
 @app.route('/profilesecure/<token>')
 def secure_profile(token):
     try:
@@ -92,7 +92,7 @@ def secure_profile(token):
         logging.error(f"INVALID TOKEN: {e}")
         return "Invalid token", 400
 
-# Admin melihat log
+
 @app.route('/admin/logs', methods=['GET'])
 def view_logs():
     if 'user' in session and session.get('role') == 'admin':
@@ -112,7 +112,6 @@ def view_logs():
     else:
         return "Unauthorized", 403
 
-# Download CSV log
 @app.route('/admin/download-logs')
 def download_logs():
     if 'user' in session and session.get('role') == 'admin':
@@ -129,7 +128,6 @@ def download_logs():
             return "No log file found", 404
     return "Unauthorized", 403
 
-# Logout
 @app.route('/logout')
 def logout():
     user = session.pop('user', None)
