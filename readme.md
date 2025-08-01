@@ -15,3 +15,7 @@
     ```
     Pip install flask itsdangerous
     ```
+    Jalankan App.py dengan
+   ```
+   python app.py
+   ```
